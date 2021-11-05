@@ -13,10 +13,14 @@
         width: 30px;
         height: 3px;
         background: #151812;
+        &:hover {
+            background: $main-color;
+        }
     }
     span.long {
         width: 36px;
     }
+        
 }
 
 .menu {
@@ -49,6 +53,13 @@
         top: 25px;
         right: 25px;
         cursor: pointer;
+        &:hover {
+            svg path {
+                fill: #FFFFFF;
+            }
+        }
+        
+        
     }
     &__list {
         list-style-type: none;
