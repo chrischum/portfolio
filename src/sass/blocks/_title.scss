@@ -1,0 +1,18 @@
+.title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 166,666%;
+    color: #000000;
+    &_fz14 {
+        font-size: 14px;
+        line-height: 150%;
+    }
+    &_fz16 {
+        font-size: 16px;
+        line-height: 150%;
+    }
+    &_fz48 {
+        font-size: 48px;
+        line-height: 125%;
+    }
+}
