@@ -62,9 +62,9 @@
             display: grid;
             grid-template-columns: 1fr 35px;
             grid-template-rows: 36px 14px;
-            column-gap: 20px;
-            justify-content: space-between;
-            align-content: space-between;
+            row-gap: 20px;
+            /*justify-content: space-between;
+            align-content: space-between; */
         }
         &-title {
             position: relative;
@@ -78,6 +78,7 @@
             }
         }
         &-counter {
+            text-align: end;
             padding-top: 8px;
             font-size: 14px;
             line-height: 150%;
