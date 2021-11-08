@@ -1,18 +1,5 @@
 .skill {
     padding-top: 120px;
-    &__title {
-        position: relative;
-        text-align: center;
-        @include before_circle;
-        &:before {
-            top: -6px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    }
-    &__subtitle {
-        text-align: center;
-    }
     &__wrapper {
         padding: 60px 11px 0 11px;
         display: grid;
