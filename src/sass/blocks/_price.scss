@@ -12,7 +12,7 @@
         &-item {
             padding-left: 25px;
             display: grid;
-            grid-template-columns: 1fr 121px;
+            grid-template-columns: repeat(2, auto);
             grid-template-rows: 1fr 18px;
             row-gap: 5px;
             justify-content: space-between;
@@ -34,7 +34,7 @@
             }
         }
         &-price {
-            text-align: end;
+            justify-self: end;
             font-weight: bold;
             font-size: 14px;
             line-height: 150%;
