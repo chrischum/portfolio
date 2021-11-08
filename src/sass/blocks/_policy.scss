@@ -1,0 +1,26 @@
+.policy {
+    margin: 50px 0;
+    &__title {
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    &__subtitle {
+        margin: 25px 0;
+    }
+    &__p {
+        
+        &-two {
+            padding-left: 40px;
+        }
+    }
+    p {
+        margin-bottom: 0;
+        span {
+            background-color: rgb(221, 230, 202);
+        }
+        a {
+            color: #000;
+            background-color: rgb(221, 230, 202); 
+        }
+    }
+}
