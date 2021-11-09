@@ -10,7 +10,7 @@
     }
     &__block {
         display: grid;
-        grid-template-columns: 210px;
+        grid-template-columns: 1fr;
         grid-template-rows: 85px 21px;
         padding: 30px 30px 20px 30px;
         border: 1px solid #000000;
@@ -25,6 +25,7 @@
         img {
             height: 100%;
             width: 100%;
+            
         }
     }
     &__text {
