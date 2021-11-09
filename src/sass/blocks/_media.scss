@@ -268,7 +268,7 @@
         }
     }
     .promo {
-        background: url('../img/main_bg_mini.jpg') no-repeat 60%/cover; 
+        background: url('../img/main_bg_mini.jpg') no-repeat 100%/cover; 
         
         &__btns {
             margin-top: 32px;
@@ -287,7 +287,9 @@
         padding-top: 40px;
         &__wrapper {
             padding: 20px 11px 0 11px;
-            //grid-template-columns: repeat(auto-fill, 270px);
+            grid-template-columns: repeat(auto-fill, 270px);
+            justify-content: center;
+            
         }
         &__ratings {
             grid-template-columns: repeat(auto-fill, 300px);
