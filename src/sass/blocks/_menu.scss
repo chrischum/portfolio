@@ -44,10 +44,8 @@
     &__block {
         position: relative;
         width: 345px;
-        height: 100vh;
-        padding-top: 140px;
-        padding-left: 40px;
-        padding-right: 40px;
+        min-height: 100vh;
+        padding: 140px 40px 50px 40px;
         background: $main-color;
         transition: all 0.6s;
         z-index: 10;
