@@ -138,6 +138,19 @@
     .container {
         max-width: 540px;
     }
+    .hamburger {
+        right: 20px;
+    }
+    .menu {
+        &__block {
+            width: 250px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        &__social {
+            padding-top: 140px;
+        } 
+    }
     .title {
         &_fz48 {
             font-size: 30px;
@@ -257,15 +270,6 @@
         &_fz36 {
             font-size: 24px;
         } 
-    }
-    .hamburger {
-        right: 20px;
-    }
-    .menu {
-        &__block {
-            width: 250px;
-            padding-left: 20px;
-        }
     }
     .promo {
         background: url('../img/main_bg_mini.jpg') no-repeat 100%/cover; 
